@@ -79,3 +79,33 @@ Start time: 930am
 Finish time: 11:10am
 
 Actual time needed to complete: 100 minutes
+          ******
+Number and name of feature: #2 App
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 10:00am
+
+Finish time: 10:30am
+
+Actual time needed to complete: 30 minutes
+          ******
+Number and name of feature: #3 Header
+
+Estimate of time needed to complete: 10 minutes
+
+Start time: 10:20am
+
+Finish time: 10:30am
+
+Actual time needed to complete: 10 minutes
+          *******
+Number and name of feature: #4 Main
+
+Estimate of time needed to complete: 60 minutes
+
+Start time: 11:00am
+
+Finish time: 12:00am
+
+Actual time needed to complete: 60 minutes

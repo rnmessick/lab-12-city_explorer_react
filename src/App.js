@@ -16,9 +16,7 @@ class App extends React.Component{
     return (
       <React.Fragment>
         <Header></Header>
-        <Main>
-
-        </Main>
+        <Main> </Main>
       </React.Fragment>
 
     )
