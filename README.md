@@ -109,3 +109,26 @@ Start time: 11:00am
 Finish time: 12:00am
 
 Actual time needed to complete: 60 minutes
+
+*****************************************************
+
+Number and name of feature: #1 App refactor
+
+Estimate of time needed to complete: 30 min
+
+Start time: 9:15am
+
+Finish time: 9:45am
+
+Actual time needed to complete: 30 min
+
+
+Number and name of feature: #2 Geolocation data add
+
+Estimate of time needed to complete: 30 min
+
+Start time: 9:15am
+
+Finish time: 9:45am
+
+Actual time needed to complete: 30 min
