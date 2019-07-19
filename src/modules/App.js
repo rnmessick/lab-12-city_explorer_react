@@ -76,7 +76,7 @@ class App extends React.Component {
         <p>{this.state.STATIC_MAP_API_KEY}</p>
 
         <img src={`https://maps.googleapis.com/maps/api/staticmap?center=${this.state.googleResults.latitude}%2c%20${this.state.googleResults.longitude}&zoom=13&size=600x300&maptype=roadmap
-  &key=${this.state.STATIC_MAP_API_KEY}`} alt="map"></img>
+&key=${this.state.STATIC_MAP_API_KEY}`} alt="map"></img>
         <section class="column-container">
           <ResultWeather apiResults={this.state.apiResults} />
           <ResultYelp apiResults={this.state.apiResults} />
