@@ -1,12 +1,23 @@
 import React from 'react';
 
-const SearchForm = (props) => {
-  return (
-    <React.Fragment>
-      <input onChange={props.getLocation} placeholder="Enter a location here"></input>
-      <button onClick={props.handleSearch} >Explore!</button>
-    </React.Fragment>
-  )
+class SearchForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: null
+    }
+  }
+  render() {
+    return (
+      <React.Fragment>
+
+        <input onChange={e => this.setState({ data: e.target.value })}></input>
+        <button onClick={() => this.props.onClick(this.state.data)}>{this.props.formName}</button>
+      </React.Fragment>
+    )
+  }
 }
+
+
 
 export default SearchForm;

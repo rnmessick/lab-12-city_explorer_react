@@ -1,13 +1,14 @@
 import React from 'react';
-
-function SearchResults(props){
-    return(
-      <React.Fragment>
- 
+import ResultYelp from './yelp.js';
 
 
-       </React.Fragment>
-    )
-  }
+function SearchResults(props) {
+  return (
+    <React.Fragment>
+      <ResultYelp></ResultYelp>
+    </React.Fragment>
 
-  export default SearchResults;
+  )
+}
+
+export default SearchResults;
