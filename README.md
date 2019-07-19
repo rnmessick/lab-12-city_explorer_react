@@ -67,8 +67,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-***************************************
-collaborators: Jane Hur
+---
+
+**collaborators: Jane Hur, Padma Ganapathi, Marisha Hoza, Matt Stuhring**
 
 Feature #1: Scaffolding
 
@@ -79,7 +80,7 @@ Start time: 930am
 Finish time: 11:10am
 
 Actual time needed to complete: 100 minutes
-          ******
+**\*\***
 Number and name of feature: #2 App
 
 Estimate of time needed to complete: 30 minutes
@@ -89,7 +90,7 @@ Start time: 10:00am
 Finish time: 10:30am
 
 Actual time needed to complete: 30 minutes
-          ******
+**\*\***
 Number and name of feature: #3 Header
 
 Estimate of time needed to complete: 10 minutes
@@ -99,7 +100,7 @@ Start time: 10:20am
 Finish time: 10:30am
 
 Actual time needed to complete: 10 minutes
-          *******
+**\*\*\***
 Number and name of feature: #4 Main
 
 Estimate of time needed to complete: 60 minutes
@@ -110,7 +111,7 @@ Finish time: 12:00am
 
 Actual time needed to complete: 60 minutes
 
-*****************************************************
+---
 
 Number and name of feature: #1 App refactor
 
@@ -122,7 +123,6 @@ Finish time: 9:45am
 
 Actual time needed to complete: 30 min
 
-
 Number and name of feature: #2 Geolocation data add
 
 Estimate of time needed to complete: 30 min
@@ -132,3 +132,17 @@ Start time: 9:15am
 Finish time: 9:45am
 
 Actual time needed to complete: 30 min
+
+---
+
+lab 14
+
+Number and name of feature: Get everything to work
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 9:00am
+
+Finish time: 1:30pm
+
+Actual time needed to complete: 4.5 hours

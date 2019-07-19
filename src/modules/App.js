@@ -2,9 +2,13 @@ import React from 'react';
 import '../App.css';
 import Header from './Header.js';
 import SearchForm from './Search-Form.js';
-// import SearchResults from './Search-Results.js';
 import superagent from 'superagent';
-import SearchResults from './Search-Results';
+// TODO: Refactor results components
+import ResultWeather from './weather.js';
+import ResultYelp from './yelp.js';
+
+import ResultMovie from './movies.js';
+import ResultTrails from './trails.js';
 require('dotenv').config();
 
 
@@ -73,10 +77,17 @@ class App extends React.Component {
 
         <img src={`https://maps.googleapis.com/maps/api/staticmap?center=${this.state.googleResults.latitude}%2c%20${this.state.googleResults.longitude}&zoom=13&size=600x300&maptype=roadmap
   &key=${this.state.STATIC_MAP_API_KEY}`} alt="map"></img>
+        <section class="column-container">
+          <ResultWeather apiResults={this.state.apiResults} />
+          <ResultYelp apiResults={this.state.apiResults} />
 
+          <ResultMovie apiResults={this.state.apiResults} />
+          <ResultTrails apiResults={this.state.apiResults} />
+        </section>
         {this.state.apiResults.yelp.map(yelp =>
           JSON.stringify(yelp)
         )}
+
         {this.state.apiResults.movies.map(movies =>
           JSON.stringify(movies),
         )}
@@ -86,7 +97,7 @@ class App extends React.Component {
         {this.state.apiResults.weathers.map(weathers =>
           JSON.stringify(weathers)
         )}
-        <SearchResults></SearchResults>
+
 
       </div>
 
